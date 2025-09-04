@@ -36,7 +36,7 @@ export default function Home() {
               <span className="inline-block h-2 w-2 rounded-full bg-white/70" />
               <span>SOKRAL DESIGN</span>
             </div>
-            <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white">
+            <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white">
               Владислав Коломиец
               <br />
               "ROKA"
