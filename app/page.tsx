@@ -34,28 +34,23 @@ export default function Home() {
           <div className="mx-auto max-w-3xl px-6">
             <div className="inline-flex items-center gap-2 rounded-full bg-white/10 ring-1 ring-white/20 px-4 py-2 text-sm font-medium text-white/90 backdrop-blur">
               <span className="inline-block h-2 w-2 rounded-full bg-white/70" />
-              <span>New Background</span>
+              <span>SOKRAL DESIGN</span>
             </div>
             <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white">
-              Become emboldened by
+              Владислав Коломиец
               <br />
-              the flame of ambition
+              "ROKA"
             </h1>
             <div className="mt-8 flex items-center justify-center gap-4">
               <button className="rounded-full bg-white text-black px-6 py-3 font-semibold shadow/50 shadow-black hover:opacity-90 transition">
-                Get Started
+                Написать в Telegram
               </button>
               <button className="rounded-full ring-1 ring-white/20 text-white px-6 py-3 font-semibold hover:bg-white/10 transition">
-                Learn More
+                Узнать поробнее
               </button>
             </div>
           </div>
         </section>
-
-        {/* Signature */}
-        <div className="pointer-events-none absolute bottom-4 right-4 z-10 text-white/90 text-sm md:text-base">
-          Владислав Коломиецц
-        </div>
       </div>
 
     </div>
