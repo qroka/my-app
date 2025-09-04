@@ -41,11 +41,11 @@ export default function Home() {
               <br />
               "ROKA"
             </h1>
-            <div className="mt-8 flex items-center justify-center gap-4">
-              <button className="rounded-full bg-white text-black px-6 py-3 font-semibold shadow/50 shadow-black hover:opacity-90 transition">
+            <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
+              <button className="w-full sm:w-auto rounded-full bg-white text-black px-6 py-3 font-semibold shadow/50 shadow-black hover:opacity-90 transition">
                 Написать в Telegram
               </button>
-              <button className="rounded-full ring-1 ring-white/20 text-white px-6 py-3 font-semibold hover:bg-white/10 transition">
+              <button className="w-full sm:w-auto rounded-full ring-1 ring-white/20 text-white px-6 py-3 font-semibold hover:bg-white/10 transition">
                 Узнать поробнее
               </button>
             </div>
