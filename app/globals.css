@@ -28,3 +28,23 @@ body {
   overscroll-behavior: none; /* prevent scroll chaining/bounce */
   touch-action: none; /* disable panning and zoom gestures */
 }
+
+/* Высота экрана: сначала стандарт, затем динамический dvh, затем iOS fallback */
+.full-viewport {
+  height: 100vh;
+}
+@supports (height: 100dvh) {
+  .full-viewport { height: 100dvh; }
+}
+/* Fallback, когда динамические единицы dvh недоступны */
+@supports not (height: 100dvh) {
+  .full-viewport { height: -webkit-fill-available; }
+}
+
+/* Паддинги по безопасным зонам (Dynamic Island/скролл-индикатор/домашняя полоса) */
+.safe-pads {
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+}

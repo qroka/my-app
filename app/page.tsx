@@ -1,18 +1,26 @@
-import DarkVeil from '../components/DarkVeil';
 import { Navbar, NavbarItem, NavbarSection } from '@/components/navbar';
 
 export default function Home() {
   return (
-    <div className="w-full min-h-dvh h-lvh relative" style={{ paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' }}>
-    <DarkVeil
-    />
-    <Navbar>
+    <main
+      className="
+        full-viewport safe-pads
+        relative overflow-hidden
+        bg-[url('/bg.jpg')] bg-cover bg-center
+      "
+    >
+      {/* Можно: bg-[length:120%] или bg-[size:cover] под задачу */}
+      {/* Контент поверх фона */}
+      <div className="absolute inset-0 bg-black/30" />
+      <section className="relative z-10 flex h-full items-center justify-center">
+        {/* ... */}
+      </section>
+      <Navbar>
       <NavbarSection>
         <NavbarItem href="/">Home</NavbarItem>
         <NavbarItem href="/">Docs</NavbarItem>
       </NavbarSection>
     </Navbar>
-  </div>
-  
+    </main>
   );
 }
