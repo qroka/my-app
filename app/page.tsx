@@ -3,7 +3,7 @@ import { Navbar, NavbarItem, NavbarSection } from '@/components/navbar';
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', height: '100dvh', position: 'relative'}}>
+    <div className="w-full min-h-dvh h-lvh relative" style={{ paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' }}>
     <DarkVeil
     />
     <Navbar>
