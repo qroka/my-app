@@ -3,7 +3,7 @@ import { Navbar, NavbarItem, NavbarSection } from '@/components/navbar';
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', height: '100vh', position: 'relative'}}>
+    <div style={{ width: '100%', height: '100dvh', position: 'relative'}}>
      <Dither
       waveColor={[0.5, 0.5, 0.5]}
       disableAnimation={false}
